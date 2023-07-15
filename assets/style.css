@@ -1,0 +1,28 @@
+*{margin: 0; padding: 0;
+font-family: Work Sans, sans-serif;}
+
+/* header starts */
+header{background: rgba(255, 144, 14, 0.10); border: 1px black solid;
+       height: 100vh;}
+
+/* nav */
+nav{border: 1px solid brown;
+    display: flex; justify-content: space-around; align-items: center;
+    padding: 30px 0;}
+
+    h3{color: var(--dark-01, #131313);
+        font-size: 24px;
+        font-weight: 700;
+        line-height: normal;}
+
+    nav ul{display: flex; gap: 25px; list-style: none;}
+    ul > li> a{text-decoration: none; color: var(--dark-02, #424242);
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px; /* 144.444% */}
+        a:hover{text-decoration: underline;}
+
+/* banner */
+
+/* header ends */
